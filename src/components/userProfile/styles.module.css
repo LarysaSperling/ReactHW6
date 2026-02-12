@@ -1,0 +1,87 @@
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 30px;
+  background: #f6f6f6;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.card {
+  width: min(760px, 92vw);
+  min-height: 520px;
+  background: #c9f1a6;
+  border-radius: 6px;
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+  padding: 40px 30px 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.loadingLine {
+  position: absolute;
+  top: 16px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 3px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+  margin-top: 10px;
+}
+
+.name {
+  margin: 22px 0 0;
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.72);
+  text-align: center;
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.emailBlock {
+  margin-top: 70px;
+}
+
+.phoneBlock {
+  margin-top: 70px;
+}
+
+.button {
+  margin-top: auto;
+  padding: 12px 26px;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error {
+  margin-top: 14px;
+  color: #d63b3b;
+  text-align: center;
+}
