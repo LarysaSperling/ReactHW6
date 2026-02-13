@@ -8,7 +8,7 @@
 }
 
 .card {
-  width: min(760px, 92vw);
+  width: min(460px, 92vw);
   min-height: 520px;
   background: #c9f1a6;
   border-radius: 6px;
